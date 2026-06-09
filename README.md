@@ -1,25 +1,22 @@
 # Sistema de Fichas Sobre Pessoas
 _Neste sistema, você pode anotar de forma organizada, várias informações específicas sobre pessoas; no entanto, não anote informações de pessoas sem autorização. Só testado em Linux._
 
-<big><big><big>🖥️ <b>Detalhes:</b></big></big></big>
+## 🖥️ **Detalhes:**
 
-**Versão:** _X.X - X_ <br>
-**Idioma:** _X.X_
-- _X_
+**Versão:** _1.0_ 
 
-
-<big><big><big>🔨️ <b>Desenvolvimento:</b></big></big></big>
+## 🔨️ **Desenvolvimento:**
 
 - _X_
 - _X_
 - _X_
 
-<big><big><big>⚠️ <b>Responsabilidades do Usuário:</b></big></big></big>
+## ⚠️ **Responsabilidades do Usuário:**
 
 - _X_
 - _X_
 
-<big><big><big>📦 <b>Requisitos:</b></big></big></big>
+## 📦 **Requisitos:**
 
 - _X_
 - _X_
@@ -32,25 +29,25 @@ _Neste sistema, você pode anotar de forma organizada, várias informações esp
 - _X_
 - _X_
 
-<big><big><big>🔧 <b>Como Instalar:</b></big></big></big>
+## 🔧 **Como Instalar:**
 
-_- 1- X_ <br>
-_- 2- X_ <br>
-_- 3- X_ <br>
-_- 3- X_ <br>
-_- 4- X_ <br>
-_- 5- X_ <br>
-_- 6- X_ <br>
-_- 7- X_ <br>
-_- 8- X_ <br>
-
-
-<big><big><big>🪛️ <b>Como Atualizar:</b></big></big></big>
-
-_- X_
+- 1- _X_ 
+- 2- _X_ 
+- 3- _X_ 
+- 3- _X_ 
+- 4- _X_ 
+- 5- _X_ 
+- 6- _X_ 
+- 7- _X_ 
+- 8- _X_ 
 
 
-<big><big><big>🚀 <b>Como Usar:</b></big></big></big>
+## 🪛️ **Como Atualizar:**
 
 - _X_
-- _X
+
+
+## 🚀 **Como Usar:**
+
+- _X_
+- _X_
