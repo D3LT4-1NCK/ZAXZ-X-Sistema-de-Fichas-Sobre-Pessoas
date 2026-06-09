@@ -45,7 +45,7 @@ _- 7- X_ <br>
 _- 8- X_ <br>
 
 
-<big><big><big>🪛️ <b>Como atualizar:</b></big></big></big>
+<big><big><big>🪛️ <b>Como Atualizar:</b></big></big></big>
 
 _- X_
 
