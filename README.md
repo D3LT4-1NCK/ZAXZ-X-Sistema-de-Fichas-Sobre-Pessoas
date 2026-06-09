@@ -1,5 +1,5 @@
-# ZAXZ-Sistema-Autonomo-com-Ferramentas-Hacker
-Sistema autônomo em Python para automação de tarefas pessoais e varredura com ferramentas de reconhecimento. Desenvolvido para Linux.
+# Sistema de Fichas Sobre Pessoas
+_Neste sistema, você pode anotar de forma organizada, várias informações específicas sobre pessoas; no entanto, não anote informações de pessoas sem autorização. Só testado em Linux._
 
 <big><big><big>🖥️ <b>Detalhes:</b></big></big></big>
 
