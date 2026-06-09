@@ -1,22 +1,22 @@
 # Sistema de Fichas Sobre Pessoas
 _Neste sistema, você pode anotar de forma organizada, várias informações específicas sobre pessoas; no entanto, não anote informações de pessoas sem autorização. Só testado em Linux._
 
-## 🖥️ **Detalhes:**
+<h2 style="border-bottom: none;">🖥️ <b>Detalhes:</b></h2>
 
 **Versão:** _1.0_ 
 
-## 🔨️ **Desenvolvimento:**
+<h2 style="border-bottom: none;">🔨️ <b>Desenvolvimento:</b></h2>
 
 - _X_
 - _X_
 - _X_
 
-## ⚠️ **Responsabilidades do Usuário:**
+<h2 style="border-bottom: none;">⚠️ <b>Responsabilidades do Usuário:</b></h2>
 
 - _X_
 - _X_
 
-## 📦 **Requisitos:**
+<h2 style="border-bottom: none;">📦 <b>Requisitos:</b></h2>
 
 - _X_
 - _X_
@@ -29,7 +29,7 @@ _Neste sistema, você pode anotar de forma organizada, várias informações esp
 - _X_
 - _X_
 
-## 🔧 **Como Instalar:**
+<h2 style="border-bottom: none;">🔧 <b>Como Instalar:</b></h2>
 
 - 1- _X_ 
 - 2- _X_ 
@@ -42,12 +42,12 @@ _Neste sistema, você pode anotar de forma organizada, várias informações esp
 - 8- _X_ 
 
 
-## 🪛️ **Como Atualizar:**
+<h2 style="border-bottom: none;">🪛️ <b>Como Atualizar:</b></h2>
 
 - _X_
 
 
-## 🚀 **Como Usar:**
+<h2 style="border-bottom: none;">🚀 <b>Como Usar:</b></h2>
 
 - _X_
 - _X_
