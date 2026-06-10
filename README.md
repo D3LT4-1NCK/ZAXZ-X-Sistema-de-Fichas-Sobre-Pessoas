@@ -3,7 +3,7 @@ _Neste sistema escrito em Python + SQL, você pode anotar de forma organizada, v
 
 <big><big><big>🖥️ <b>Detalhes:</b></big></big></big>
 
-**Versão:** _1.0_ <br>
+**Versão:** _1.2_ <br>
 
 <big><big><big>🔨️ <b>Desenvolvimento:</b></big></big></big>
 
