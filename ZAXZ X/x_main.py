@@ -62,7 +62,6 @@ try:
                 print_slow(branco() + "\nCerto, vamos tentar de novo.\n")
             elif confirmar_nome in respostas_sim:
                 print_slow(verde() + "\nBoa! Vamos prosseguir.\n")
-                return nomear
             else:
                 print_slow(vermelho() + "\nConfirmação inválida, tente novamente.\n")
 
@@ -468,8 +467,9 @@ try:
                     elif pingar == 0:
                         continue
 
+    os.system("clear")
     print(roxo() + figlet_format("ZAXZ    X"))
-    print_slow(roxo() + "\nSistema inteligente de anotações pessoais.\n")
+    print_slow(roxo() + "\nSistema inteligente de anotações pessoais.\n\nVersão: 1.2\n")
     print_slow(branco() + "\nAtenção: Sempre que quiser sair do sistema, basta digitar algo como 'cancelar'; não feche o terminal ou encerre o processo a força!\n")
     while True:
         decisao = input_slow(branco() + "\nVocê quer adicionar um novo alvo a tabela (1), acrescentar informações a um alvo existente (2), ou quer visualizar a tabela atual (3)?\n\n- ").capitalize()
