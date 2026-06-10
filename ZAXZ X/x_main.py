@@ -1,4 +1,4 @@
-# O código se repete diversas vezes pois futuramente, cada informação será tratada de forma diferente (alias algumas já são assim)! 
+# O código se repete diversas vezes pois futuramente, cada informação será tratada de forma diferente (alias algumas já são assim)!
 
 try:
     from z_bibliotecas import *
@@ -455,7 +455,7 @@ try:
                     elif pingar == 0:
                         continue
 
-    print(roxo() + figlet_format("ZAXZ X"))
+    print(roxo() + figlet_format("ZAXZ    X"))
     print_slow(roxo() + "\nSistema inteligente de anotações pessoais.\n")
     print_slow(branco() + "\nAtenção: Sempre que quiser sair do sistema, basta digitar algo como 'cancelar'; não feche o terminal ou encerre o processo a força!\n")
     while True:
