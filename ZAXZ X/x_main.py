@@ -52,6 +52,19 @@ try:
                 continue
             else:
                 df = pd.concat([df, pd.DataFrame([{"Nome": nomear}])], ignore_index=True)
+            
+            confirmar_nome = input_slow(branco() + f"\nConfirmar dado como '{nomear}'? Cuidado, isso é inalterável! (S/N): ").capitalize()
+            
+            if confirmar_nome in respostas_cancelar:
+                print_slow(amarelo() + "\nEncerrando...\n")
+                exit()
+            elif confirmar_nome in respostas_nao:
+                print_slow(branco() + "\nCerto, vamos tentar de novo.\n")
+            elif confirmar_nome in respostas_sim:
+                print_slow(verde() + "\nBoa! Vamos prosseguir.\n")
+                return nomear
+            else:
+                print_slow(vermelho() + "\nConfirmação inválida, tente novamente.\n")
 
             print_slow(branco() + "\nLembre-se, caso você não tenha certa informação, basta teclar 'Enter'.\n")
 
@@ -71,7 +84,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Nick"] = nickar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === IDADE ===
             while True:
@@ -96,7 +109,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Idade"] = idadear
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === CPF ===
             while True:
@@ -114,7 +127,7 @@ try:
                     df.loc[df["Nome"] == nomear, "CPF"] = cpfar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === RG ===
             while True:
@@ -132,7 +145,7 @@ try:
                     df.loc[df["Nome"] == nomear, "RG"] = rgar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === ANIVERSÁRIO ===
             while True:
@@ -150,7 +163,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Aniversário"] = aniversarioar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === GÊNERO ===
             while True:
@@ -168,7 +181,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Gênero"] = generoar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === EMAIL ===
             while True:
@@ -186,7 +199,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Email"] = emailar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === NÚMERO ===
             while True:
@@ -204,7 +217,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Número"] = numeroar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === CEP ===
             while True:
@@ -222,7 +235,7 @@ try:
                     df.loc[df["Nome"] == nomear, "CEP"] = cepar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === RUA ===
             while True:
@@ -240,7 +253,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Rua"] = ruaar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === CIDADE ===
             while True:
@@ -258,7 +271,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Cidade"] = cidadear
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === PAÍS ===
             while True:
@@ -276,7 +289,7 @@ try:
                     df.loc[df["Nome"] == nomear, "País"] = paisar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === TRABALHO / ESCOLARIDADE ===
             while True:
@@ -294,7 +307,7 @@ try:
                     df.loc[df["Nome"] == nomear, "Trabalho/Escolaridade"] = trabalho_escolaridadear
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             # === IP ===
             while True:
@@ -317,7 +330,7 @@ try:
                     df.loc[df["Nome"] == nomear, "IP"] = ipar
                     break
                 else:
-                    print_slow(vermelho() + "\nNão compreendido. Tente novamente.\n")
+                    print_slow(vermelho() + "\nTente novamente.\n")
 
             df.to_csv("infos.csv", index=False)
             
