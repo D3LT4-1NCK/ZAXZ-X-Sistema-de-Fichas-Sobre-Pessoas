@@ -1,4 +1,4 @@
-# Sistema de Fichas Sobre Pessoas
+# ZAXZ X | Sistema de Fichas Sobre Pessoas
 _Neste sistema escrito em Python + SQL, você pode anotar de forma organizada, várias informações específicas sobre pessoas; no entanto, não anote informações de pessoas sem autorização. Só testado em Linux._
 
 <big><big><big>🖥️ <b>Detalhes:</b></big></big></big>
